@@ -24,6 +24,7 @@ export async function getStaticProps() {
     props: {
       meetups: dummymeetups,
     },
+    revalidate: 10,
   };
 }
 export default Homepage;
