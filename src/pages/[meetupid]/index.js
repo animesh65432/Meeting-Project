@@ -1,4 +1,10 @@
-const Newmeetuppage = () => {
-  return <></>;
+const Meetupid = () => {
+  return (
+    <>
+      <div>
+        <p>Hello</p>
+      </div>
+    </>
+  );
 };
-export default Newmeetuppage;
+export default Meetupid;
